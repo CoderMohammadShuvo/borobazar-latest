@@ -1,6 +1,15 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
+  webpack: (config) => {
+    config.resolve.fallback = {
+      // Add any required fallbacks here
+      fs: false,
+      path: false,
+      // Other modules...
+    };
+    return config;
+  },
   reactStrictMode: true,
   swcMinify: true,
   // experimental: {
