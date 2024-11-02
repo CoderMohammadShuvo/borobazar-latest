@@ -67,9 +67,9 @@ pnpm start
 - `/src/app`: All the pages created here which is used by nextjs app routing mechanism.
 - `/src/app/i18n`: To Change your multi language here.
 - `/src/assets`: This folder contains all the css related assets.
-- `/src/components`: This folder contains all the template related ui components.
+- `/src/components`: This the template related ui components.
 - `/src/contexts`: This folder contains all necessary context for this template . Like `cart, ui` etc.
-- `/src/framework`: It's contain all the data fetching related codes. see below for more info.
+- `/src/framework`: It's contain all the data fetching related codesfolder contains all . see below for more info.
 - `/src/layouts`: This folder contains all the layout related ui components.
 - `/src/settings`: To setup your site basic setting like `privacy page, terms page, faq page` etc.
 - `/src/styles`: Overwrites some third party packages CSS files and our custom CSS in the tailwind.css file.
